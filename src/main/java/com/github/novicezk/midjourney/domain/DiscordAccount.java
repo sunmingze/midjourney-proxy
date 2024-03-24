@@ -25,7 +25,7 @@ public class DiscordAccount extends DomainObject {
 	private boolean enable = true;
 
 	@ApiModelProperty("并发数")
-	private int coreSize = 3;
+	private int coreSize = 10;
 	@ApiModelProperty("等待队列长度")
 	private int queueSize = 20;
 	@ApiModelProperty("任务超时时间(分钟)")
